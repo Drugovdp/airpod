@@ -1,0 +1,165 @@
+@media (max-width: 768px) {
+    .chooseColor,
+    .composition,
+    .case {
+        margin-bottom: 60px;
+    }
+
+    .list {
+        gap: 15px;
+    }
+
+    .title {
+        font-size: 36px;
+    }
+
+    .textNum {
+        font-size: 110px;
+        margin-bottom: 20px;
+    }
+    .btn {
+        width: 100px;
+        height: 40px;
+        font-size: 14px;
+        font-weight: 500;
+    }
+}
+
+@media (max-width: 560px) {
+    .chooseColor,
+    .composition,
+    .case {
+        margin-bottom: 40px;
+    }
+
+    .charge .text {
+        margin-bottom: 60px;
+    }
+
+    .composition .inner {
+        flex-wrap: wrap;
+        gap: 40px;
+        justify-content: center;
+
+        &Text p {
+            width: 100%;
+        }
+    }
+
+    .headerTop {
+        padding: 20px 0;
+    }
+
+    .memuList {
+        display: none;
+    }
+
+    .menu_item {
+        padding: 8px;
+    }
+
+    .menu {
+        gap: 10px;
+    }
+
+    .arrowPointer {
+        width: 25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 5;
+
+        span {
+            flex-basis: 50%;
+            border: 0.5px solid black;
+            transition: transform 0.5s ease;
+        }
+    }
+
+    .menuHr {
+        display: none;
+    }
+
+    .memuListSmall {
+        display: none;
+        position: absolute;
+        opacity: 0;
+    }
+
+    .memuListSmallActive {
+        display: block;
+        top: 90px;
+        opacity: 1;
+        animation: identifier 0.5s cubic-bezier(0.4, 0, 1, 1);
+
+        .menu_item {
+            margin-left: 50px;
+            font-weight: 700;
+        }
+
+        .memuListSmallHr {
+            display: block;
+            width: 100vw;
+            margin: 0;
+            padding: 0;
+
+            @keyframes identifier {
+                0% {
+                    top: -120px;
+                    opacity: 0;
+                }
+                25% {
+                    top: -60%;
+                    opacity: 0;
+                }
+                50% {
+                    top: 0px;
+                    opacity: 0;
+                }
+                75% {
+                    top: 45px;
+                    opacity: 0.5;
+                }
+                100% {
+                    top: 90px;
+                    opacity: 1;
+                }
+            }
+        }
+    }
+    
+    .headerContentOnBlure {
+        filter: blur(20px);
+    }
+}
+
+@media (max-width: 414px) {
+    body {
+        font-size: 15px;
+    }
+
+    .title {
+        font-size: 28px;
+    }
+
+    .textNum {
+        font-size: 92px;
+    }
+
+    .case img {
+        max-width: 100%;
+    }
+
+    .headerTop {
+        padding: 10px 0;
+    }
+
+    .btn {
+        width: 80px;
+        height: 26px;
+        padding: 0;
+        gap: 0;
+        font-size: 13px;
+        font-weight: 500;
+    }
+}

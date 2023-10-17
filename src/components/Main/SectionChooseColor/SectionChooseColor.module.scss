@@ -1,0 +1,44 @@
+@import "../../../styles/mixin.scss";
+
+.chooseColor {
+    margin: 45px 0 180px;
+    text-align: center;
+}
+
+.container {
+    @include container;
+}
+
+.title {
+    font-size: 36px;
+    font-weight: 700;
+    max-width: 557px;
+    margin: 0 auto 20px;
+}
+
+.text {
+    max-width: 557px;
+    margin: 0 auto 80px;
+}
+
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+
+    &Btn {
+        width: 260px;
+        height: 275px;
+        border-radius: 20px;
+        border: 1px solid #777;
+        padding: 50px 55px;
+        cursor: pointer;
+    }
+}
+
+.listBtn {
+    cursor: pointer;
+}
+
+@import "../../../styles//mediastyle.scss";

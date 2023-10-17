@@ -1,0 +1,24 @@
+$backgroundBtnBlack: #000;
+$backgroundBtnWhite: #fff;
+$colorTextBtnBlack: #000;
+$colorTextBtnWhite: #ffffff;
+$fontStyleTextBtn: normal 700 16px / normal Inter;
+
+@mixin container {
+    max-width: 1220px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
+@mixin main-title {
+    font-size: 64px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+@mixin text-style {
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+}

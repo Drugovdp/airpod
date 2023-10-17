@@ -1,0 +1,75 @@
+@import "../../styles/mixin.scss";
+
+.header {
+    max-height: 100vh;
+    position: relative;
+
+    &Blur {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        width: 100%;
+        // background: linear-gradient(180deg, #cadbeb 0%, rgba(235, 235, 235, 0) 100%);
+        z-index: -2;
+    }
+}
+
+.container {
+    @include container;
+    position: relative;
+}
+
+.headerTop {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 0;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.arrowPointer {
+    display: none;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+
+    img {
+        width: 100%;
+    }
+}
+
+.memuList {
+    display: flex;
+    align-items: center;
+    gap: 0 40px;
+    font-weight: 700;
+
+    &Item {
+        &Btn {
+            background-color: $backgroundBtnBlack;
+            color: $backgroundBtnWhite;
+            font: $fontStyleTextBtn;
+        }
+    }
+}
+
+.memuListSmall {
+    display: none;
+}
+
+.menuHr {
+    display: block;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+}
+
+@import "../../styles/mediastyle.scss";

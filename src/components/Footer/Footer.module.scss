@@ -1,0 +1,35 @@
+@import '../../styles/mixin.scss';
+
+.footer {
+    padding: 50px 0 0;
+    background-color: #000;
+    font-weight: 700;
+}
+
+.container {
+    @include container;
+}
+
+.boxLink {
+    width: 179px;
+    height: 112px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin: 50px auto 80px;
+}
+
+.ulList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    color: white;
+    padding-bottom: 40px;
+}
+
+@import '../../styles/mediastyle.scss';
