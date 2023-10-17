@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/airpod/static/css/main.4022cc8e.css",
+    "main.js": "/airpod/static/js/main.4a9e5000.js",
+    "static/js/787.51df47dd.chunk.js": "/airpod/static/js/787.51df47dd.chunk.js",
+    "static/media/audioDJ.jpg": "/airpod/static/media/audioDJ.12c5868f300a72000fb8.jpg",
+    "static/media/airpods-red.png": "/airpod/static/media/airpods-red.c73e3efcd576d35b4153.png",
+    "static/media/airpods-blue.png": "/airpod/static/media/airpods-blue.052aee75c6f739bb26a6.png",
+    "static/media/airpods-green.png": "/airpod/static/media/airpods-green.6fada3a5be201ad6fb76.png",
+    "static/media/airpods-white.png": "/airpod/static/media/airpods-white.034df1a1198360a0c5f9.png",
+    "static/media/airpods-blacke.png": "/airpod/static/media/airpods-blacke.4d1dd8d5efefb2d181d2.png",
+    "static/media/case-red.jpg": "/airpod/static/media/case-red.c0b9cec35200736c766e.jpg",
+    "static/media/case-blue.jpg": "/airpod/static/media/case-blue.c8cd2f042a17a58a666a.jpg",
+    "static/media/case-green.jpg": "/airpod/static/media/case-green.45c419533a40c5988f00.jpg",
+    "static/media/case-black.jpg": "/airpod/static/media/case-black.5b9993b323160767069d.jpg",
+    "static/media/side-red.jpg": "/airpod/static/media/side-red.0c0abb8b12e5836c4381.jpg",
+    "static/media/side-blue.jpg": "/airpod/static/media/side-blue.5336288dc5eeaae3e5fa.jpg",
+    "static/media/case-white.png": "/airpod/static/media/case-white.90cb39ab3c297ee152fe.png",
+    "static/media/side-black.jpg": "/airpod/static/media/side-black.bed7ee82f7dc2b7de185.jpg",
+    "static/media/btn-red.png": "/airpod/static/media/btn-red.a742729d0f88fb2890f5.png",
+    "static/media/btn-blue.png": "/airpod/static/media/btn-blue.9e0005e63365111fafbc.png",
+    "static/media/side-green.jpg": "/airpod/static/media/side-green.431a5d141bc97de37588.jpg",
+    "static/media/btn-green.png": "/airpod/static/media/btn-green.b0a6fbbd63c2f67550dd.png",
+    "static/media/btn-black.png": "/airpod/static/media/btn-black.3e9f4f54c8ddc260300e.png",
+    "static/media/btn-white.png": "/airpod/static/media/btn-white.513b8ec08e752a642ee4.png",
+    "static/media/side-white.jpg": "/airpod/static/media/side-white.2bf21d1934540b2f568d.jpg",
+    "index.html": "/airpod/index.html",
+    "main.4022cc8e.css.map": "/airpod/static/css/main.4022cc8e.css.map",
+    "main.4a9e5000.js.map": "/airpod/static/js/main.4a9e5000.js.map",
+    "787.51df47dd.chunk.js.map": "/airpod/static/js/787.51df47dd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4022cc8e.css",
+    "static/js/main.4a9e5000.js"
+  ]
+}
